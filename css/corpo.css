@@ -46,7 +46,7 @@ body {
 }
 
 .gif-container{
-    height: auto;
+    width: 10%;
     max-height: 400px;
     width: 435px;
     border-radius: 10px;
