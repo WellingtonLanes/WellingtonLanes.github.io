@@ -46,7 +46,7 @@ body {
 }
 
 .gif-container{
-    width: 10%;
+    width: 80%;
     max-height: 400px;
     width: 435px;
     border-radius: 10px;
@@ -55,13 +55,13 @@ body {
     margin-right: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 100px) {
     .slide-container, .text-container, .gif-container {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 100px) {
     .slide-container, .text-container, .gif-container {
         grid-template-columns: 1fr;
     }
