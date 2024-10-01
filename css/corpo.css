@@ -55,13 +55,13 @@ body {
     margin-right: 100px;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 480px) {
     .slide-container, .text-container, .gif-container {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 100px) {
+@media (max-width: 720px) {
     .slide-container, .text-container, .gif-container {
         grid-template-columns: 1fr;
     }
