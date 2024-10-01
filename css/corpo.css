@@ -54,27 +54,3 @@ body {
     position: relative;
     margin-right: 100px;
 }
-
-@media (max-width: 480px) {
-    .slide-container, .text-container, .gif-container {
-    width: 50%;
-    max-height: 200px;
-    width: 300px;
-    border-radius: 10px;
-    margin: 20px 0;
-    position: relative;
-    margin-right: 500px;
-    }
-}
-
-@media (max-width: 360px) {
-    .slide-container, .text-container, .gif-container {
-    width: 30%;
-    max-height: 100px;
-    width: 200px;
-    border-radius: 10px;
-    margin: 20px 0;
-    position: relative;
-    margin-right: 25px;
-    }
-}
