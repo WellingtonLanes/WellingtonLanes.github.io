@@ -54,3 +54,40 @@ body {
     position: relative;
     margin-right: 100px;
 }
+@media (max-width: 768px) {
+    .slide {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 10px;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+
+    .gif-container img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .section {
+        padding: 5px;
+    }
+
+    .text-container p {
+        font-size: 12px;
+    }
+
+    .slide {
+        margin: 5px;
+    }
+
+    .gif-container img {
+        width: 100%;
+    }
+}
