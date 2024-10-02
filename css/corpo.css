@@ -73,6 +73,7 @@ body {
         margin: 10px 0;
         padding: 10px;
         justify-content: center;
+        align-items: center;
     }
 
     .slide img {
@@ -99,6 +100,7 @@ body {
 @media (max-width: 480px) {
     .slide-container, .text-container, .gif-container {
         justify-content: center;
+        align-items: center;
     }
     .text-container {
         font-size: 12px;
@@ -125,6 +127,7 @@ body {
 @media (max-width: 320px) {
     .slide-container, .text-container, .gif-container {
         justify-content: center;
+        align-items: center;
     }
     .text-container {
         font-size: 10px;
