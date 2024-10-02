@@ -54,6 +54,13 @@ body {
     position: relative;
     margin-right: 100px;
 }
+.gif-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 @media (max-width: 600px) {
     body {
@@ -75,6 +82,11 @@ body {
         max-height: 300px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .gif-container img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
 
     .text-container {
@@ -98,6 +110,11 @@ body {
         margin-right: auto;
         margin-left: auto;
     }
+    .gif-container img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; /* Centraliza o GIF */
+    }
 }
 
 @media (max-width: 320px) {
@@ -115,5 +132,10 @@ body {
         max-height: 200px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .gif-container img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; /* Centraliza o GIF */
     }
 }
