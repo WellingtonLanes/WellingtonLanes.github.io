@@ -94,7 +94,7 @@ body {
 
     .gif-container {
         width: 100%;
-        max-height: auto;
+        max-height: 250px;
     }
 }
 
@@ -110,6 +110,6 @@ body {
 
     .gif-container {
         width: 100%;
-        max-height: auto;
+        max-height: 200px;
     }
 }
