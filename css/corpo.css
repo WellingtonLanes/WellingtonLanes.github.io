@@ -111,9 +111,9 @@ body {
     .gif-container {
         width: 100%;
         max-height: auto;
-        max-height: 100px;
-        width: 135px;
+        max-height: 900px;
+        width: 900px;
         position: relative;
-        margin-right: 50px;
+        margin-right: 500px;
     }
 }
