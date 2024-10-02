@@ -93,12 +93,8 @@ body {
     }
 
     .gif-container {
-        width: 70%;
+        width: 100%;
         max-height: auto;
-        max-height: 900px;
-        width: 900px;
-        position: relative;
-        margin-right: 500px;
     }
 }
 
@@ -113,11 +109,7 @@ body {
     }
 
     .gif-container {
-        width: 70%;
+        width: 100%;
         max-height: auto;
-        max-height: 900px;
-        width: 900px;
-        position: relative;
-        margin-right: 500px;
     }
 }
