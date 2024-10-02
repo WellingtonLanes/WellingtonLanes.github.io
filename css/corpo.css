@@ -95,6 +95,8 @@ body {
     .gif-container {
         width: 100%;
         max-height: 250px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -111,5 +113,7 @@ body {
     .gif-container {
         width: 100%;
         max-height: 200px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
