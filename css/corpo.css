@@ -74,6 +74,8 @@ body {
         padding: 10px;
         justify-content: center;
         align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .slide img {
@@ -101,6 +103,8 @@ body {
     .slide-container, .text-container, .gif-container {
         justify-content: center;
         align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .text-container {
         font-size: 12px;
@@ -128,6 +132,8 @@ body {
     .slide-container, .text-container, .gif-container {
         justify-content: center;
         align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .text-container {
         font-size: 10px;
