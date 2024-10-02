@@ -11,11 +11,31 @@ body {
     background-attachment: fixed;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .slide-container, .text-container, .gif-container {
     background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente para melhor leitura */
     border-radius: 10px;
     padding: 15px;
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo */
 }
 
 .slide-container {
@@ -35,7 +55,6 @@ body {
     max-height: 400px;
     width: 100%;
     border-radius: 10px;
-
 }
 
 .text-container {
@@ -45,37 +64,48 @@ body {
     text-align: center;
 }
 
-.gif-container{
+.gif-container {
     width: 80%;
+    max-width: 600px;
     max-height: 400px;
-    width: 435px;
     border-radius: 10px;
-    margin: 20px 0;
+    margin: 20px auto; /* Centraliza o GIF */
     position: relative;
-    margin-right: 100px;
 }
+
 .gif-container img {
     width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
-    border-radius: 10px;
+    margin: 0 auto; /* Centraliza o GIF */
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries para telas menores */
 @media (max-width: 600px) {
     body {
         padding: 10px;
+    }
+
+    .container, .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .slide-container, .text-container, .gif-container {
         width: 100%;
         margin: 10px 0;
         padding: 10px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+        justify-content: center; /* Centraliza o conteúdo */
+        align-items: center; /* Centraliza o conteúdo */
     }
 
     .slide img {
@@ -84,14 +114,16 @@ body {
     }
 
     .gif-container {
-        max-height: 300px;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
+        max-height: 300px; /* Ajuste para altura máxima */
+        margin-right: auto; /* Centraliza o GIF */
+        margin-left: auto; /* Centraliza o GIF */
     }
+
     .gif-container img {
         max-width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 0 auto; /* Centraliza o GIF */
     }
 
     .text-container {
@@ -99,13 +131,8 @@ body {
     }
 }
 
+/* Media Queries para telas ainda menores */
 @media (max-width: 480px) {
-    .slide-container, .text-container, .gif-container {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
     .text-container {
         font-size: 12px;
     }
@@ -117,10 +144,11 @@ body {
 
     .gif-container {
         width: 100%;
-        max-height: 250px;
-        margin-right: auto;
-        margin-left: auto;
+        max-height: 250px; /* Ajuste para altura máxima */
+        margin-right: auto; /* Centraliza o GIF */
+        margin-left: auto; /* Centraliza o GIF */
     }
+
     .gif-container img {
         max-width: 100%;
         height: auto;
@@ -129,12 +157,6 @@ body {
 }
 
 @media (max-width: 320px) {
-    .slide-container, .text-container, .gif-container {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
     .text-container {
         font-size: 10px;
     }
@@ -146,10 +168,11 @@ body {
 
     .gif-container {
         width: 100%;
-        max-height: 200px;
-        margin-right: auto;
-        margin-left: auto;
+        max-height: 200px; /* Ajuste para altura máxima */
+        margin-right: auto; /* Centraliza o GIF */
+        margin-left: auto; /* Centraliza o GIF */
     }
+
     .gif-container img {
         max-width: 100%;
         height: auto;
