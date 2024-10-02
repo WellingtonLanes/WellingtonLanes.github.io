@@ -45,14 +45,15 @@ body {
     text-align: center;
 }
 
-.gif-container{
-    width: 80%;
+.gif-container {
+    max-width: 600px;
     max-height: 400px;
-    width: 435px;
+    width: 100%;
     border-radius: 10px;
     margin: 20px 0;
     position: relative;
-    margin-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 600px) {
@@ -72,9 +73,9 @@ body {
     }
 
     .gif-container {
-        width: 100%;
-        max-height: auto;
-        margin-right: 0;
+        max-height: 300px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .text-container {
