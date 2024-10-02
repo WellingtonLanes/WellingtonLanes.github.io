@@ -133,6 +133,13 @@ img {
 
 /* Media Queries para telas ainda menores */
 @media (max-width: 480px) {
+    .container, .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .text-container {
         font-size: 12px;
     }
@@ -157,6 +164,13 @@ img {
 }
 
 @media (max-width: 320px) {
+    .container, .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .text-container {
         font-size: 10px;
     }
