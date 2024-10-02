@@ -93,8 +93,12 @@ body {
     }
 
     .gif-container {
-        width: 100%;
+        width: 70%;
         max-height: auto;
+        max-height: 900px;
+        width: 900px;
+        position: relative;
+        margin-right: 500px;
     }
 }
 
